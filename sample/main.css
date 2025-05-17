@@ -1,0 +1,238 @@
+body {
+    font-family: 'Courier New', sans-serif;
+    color: black;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 2px solid red;
+}
+
+.menu-search a img {
+    max-height: 18px;
+    margin-right: 10px;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.social-media a img {
+    max-height: 18px;
+    margin-left: 10px;
+}
+
+.header-noticias {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 2px solid grey;
+}
+
+.home-icon {
+    max-height: 20px;
+    margin-right: 5px;
+}
+
+.vertical-bar {
+    color: red;
+    margin: 0 5px;
+}
+
+.mas-noticias {
+    color: red;
+    font-family: 'Haettenschweiler', serif;
+}
+
+header {
+    background-color: red;
+    color: white;
+}
+
+/* Styles pour la navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Haettenschweiler', serif;
+    outline: none;
+}
+
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a:active {
+    text-decoration: none;
+    color: white;
+    outline: none;
+}
+
+
+.breaking-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.main-article {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.main-article img {
+    width: 100%;
+    height: auto;
+}
+
+.secondary-articles {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.secondary-articles article {
+    width: calc(33% - 10px);
+    margin-bottom: 20px;
+}
+
+.secondary-articles img {
+    width: 100%;
+    height: auto;
+}
+
+.secondary-articles h3 {
+    font-family: 'Haettenschweiler', serif;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.secondary-articles p {
+    font-size: 0.9em;
+    color: grey;
+}
+
+h1, h2, h3 {
+    font-family: 'Haettenschweiler', serif;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+form label, form input, form select, form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .left-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alignement à gauche */
+}
+
+footer .left-footer img {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+footer .right-footer {
+    text-align: center;
+    flex: 1;
+}
+
+
+h1 {
+    font-family: 'Haettenschweiler', serif;
+    font-size: 2.5em;
+}
+
+.main-content-centered {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-article img, .secondary-articles img {
+    width: 100%;
+    height: auto;
+}
+
+.breaking-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.breaking-news .secondary-articles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.breaking-news .secondary-articles article {
+    flex: 1 1 calc(33% - 20px);
+    max-width: calc(33% - 20px);
+    box-sizing: border-box;
+}
+
+.breaking-news .secondary-articles article img {
+    max-width: 100%;
+}
+.red-line {
+    border: 0;
+    height: 2px;
+    background-color: red;
+    margin: 20px 0;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.btn-red:hover {
+    background-color: darkred;
+}
+
